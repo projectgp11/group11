@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
-import { AppRegistry, StyleSheet, Text, View, Button } from 'react-native'
+import { AppRegistry, StyleSheet, Text, View } from 'react-native'
 import { NavigationComponent } from 'react-native-material-bottom-navigation'
 import { TabNavigator } from 'react-navigation'
 import Icon from 'react-native-vector-icons/MaterialIcons'
 import FlipToggle from 'react-native-flip-toggle-button'
-import ToggleSwitch from 'toggle-switch-react-native'
 
 
 const styles = StyleSheet.create({
