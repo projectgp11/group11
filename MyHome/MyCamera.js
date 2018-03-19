@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import { AppRegistry, StyleSheet, Text, View, Dimensions, Button } from 'react-native'
+import React, { PureComponent } from 'react'
+import { AppRegistry, StyleSheet, Text, View, Dimensions} from 'react-native'
 import { NavigationComponent } from 'react-native-material-bottom-navigation'
 import { TabNavigator } from 'react-navigation'
 import Icon from 'react-native-vector-icons/MaterialIcons'
@@ -49,13 +49,6 @@ preview: {
     height: Dimensions.get('window').height,
     width: Dimensions.get('window').width,
   },
-para: {
-	fontSize: 21,
-	color: '#1c2a43',
-	fontWeight:'500',
-	marginTop:10,
-	alignSelf: 'center',
-},
 MyNav: {
           height: 160,
           elevation: 8,
@@ -67,22 +60,6 @@ MyNav: {
 });
 
 
-
-
-/**
- * Screen for second tab.
-
-export default class Home extends Component {
-  
-  render() {
-    return (
-      <View>
-        <Text>Home</Text>
-		<Text style={styles.para}>Home</Text>
-      </View>
-   )
-  }
-}*/
 
 
 
