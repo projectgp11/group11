@@ -22,7 +22,7 @@ container: {
 export default class SettingsScreen extends React.Component {
   static navigationOptions = {
     //tabBarLabel: 'Settings',
-	tabBarIcon: () => <Icon size={46}  name="settings" color='#012541'/>
+	tabBarIcon: () => <Icon size={46}  name="settings" style={{ color: s.IconAColor.color }}'/>
   }
    constructor(props) {
     super(props);
