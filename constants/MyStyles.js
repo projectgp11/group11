@@ -90,17 +90,17 @@ module.exports = StyleSheet.create({
    rippleInvert: {
 	   color: '#ffc2ff',
    },
-   TabBColor:{
-	   backgroundColor:'#012541',
+   TabAColor:{
+	   backgroundColor:'#ffc2ff',
    },
    IconAColor: {
-	   color: '#ffc2ff',
+	   color: '#012541',
    },
    TabInvert: {
-	   backgroundColor: '#ffc2ff',
+	   backgroundColor: '#012541',
    },
    IconInvert: {
-	   color : '#012541',
+	   color : '#ffc2ff',
    },
 	   
 
