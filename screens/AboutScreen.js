@@ -15,7 +15,7 @@ export default class AboutScreen extends React.Component {
   render() {
     return (
       <ScrollView style={styles.container}>
-        <Text style={[s.h2 && s.textbigger]}>About</Text>
+        <Text style={s.h2}>About</Text>
         <Text style={s.p}>Welcome to ExpeARience, an app designed to provide audio information about the different departments of DCU. </Text>
 
         <Text style={s.p}>To use, hold your phone upright in front of you, with the camera facing outwards. </Text>
