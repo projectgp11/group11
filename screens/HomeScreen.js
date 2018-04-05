@@ -11,7 +11,7 @@ export default class HomeScreen extends React.Component {
   static navigationOptions = {
 	//header: null,
 	//tabBarLabel: 'Home',
-    tabBarIcon: () => <Icon size={46}  name="home" style={{ color: s.IconAColor.color }}/>
+    tabBarIcon: () => <Icon size={46}  name="home" style={[s.IconAColor]}/>
   }
 
   render() {
