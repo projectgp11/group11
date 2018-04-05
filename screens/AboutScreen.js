@@ -9,7 +9,7 @@ var s = require('../constants/MyStyles.js');
 export default class AboutScreen extends React.Component {
   static navigationOptions = {
     title: 'About',
-	tabBarIcon: () => <Icon size={46}  name="info" style={{ color: s.IconAColor.color }}/>
+	tabBarIcon: () => <Icon size={46}  name="info" style={[s.IconAColor]}/>
   }
 
   render() {
