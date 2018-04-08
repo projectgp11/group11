@@ -55,13 +55,6 @@ export default class Settings extends Component {
         <Text>Settings</Text>
 		<Text style={styles.para}>Settings</Text>
 	     <Text style={styles.toggles}>Large Text</Text>
-    accessible={true}
-    style={{
-    flex: 1,
-    backgroundColor: 'white',
-    padding: 10,
-    paddingTop: 30,
-  }}
 	    
   <FlipToggle 
     value={this.state.isSwitch1On}
@@ -125,8 +118,31 @@ export default class Settings extends Component {
     }}
     onToggleLongPress={() => console.log('toggle long pressed!')}
      />
-	 
+   <TouchableOpacity
+      accessible={true}
+      accessibilityLabel={'Tap me!'}
+      onPress={this._onPress}>
+  <View style={styles.button}>
+    <Text style={styles.buttonText}>Press me!</Text>
+  </View>
+</TouchableOpacity>
 
+   }}
+  // <View
+  //accessible={true}
+  //style={{
+    //flex: 1,
+   // backgroundColor: 'white',
+   // padding: 10,
+   // paddingTop: 30,
+ // }}>
+ // <Text>Hacker and Looper, Page Post Engagement</Text>
+  //<Text>29,967 Post Engagements</Text>
+  //<AdsManagerStatus
+   // accessibilityLabel={'Status ' + this.props.status}
+   // status={this.props.status}
+  ///>
+//</View>
 	 </View>
      
    )
