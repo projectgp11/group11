@@ -122,10 +122,15 @@ export default class Settings extends Component {
       accessible={true}
       accessibilityLabel={'Tap me!'}
       onPress={this._onPress}>
-  <View style={styles.button}>
+  <View style={settings.button}>
     <Text style={styles.buttonText}>Press me!</Text>
-  </View>
 </TouchableOpacity>
+  <AdsManagerStatus
+    accessibilityLabel={'Settings ' + Settings.props.status}
+    status={Settings.props.status}
+  />
+  </View>
+
 
    }}
   // <View
@@ -143,7 +148,7 @@ export default class Settings extends Component {
    // status={this.props.status}
   ///>
 //</View>
-	 </View>
+	 //</View>
      
    )
   }
