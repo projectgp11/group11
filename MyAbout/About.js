@@ -44,6 +44,9 @@ export default class About extends Component {
   static navigationOptions = {
     tabBarLabel: 'About',
     tabBarIcon: () => <Icon size={25} name="info" color="white" />
+    <AdsManagerStatus
+accessibilityLabel={'About' + About.props.status}
+status={About.props.status}
   }
 
   render() {
@@ -52,6 +55,8 @@ export default class About extends Component {
         <Text>About</Text>
 		<Text style={styles.para}>About</Text>
       </View>
+	    
+  />
     )
   }
 }
