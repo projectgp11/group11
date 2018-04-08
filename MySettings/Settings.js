@@ -55,6 +55,14 @@ export default class Settings extends Component {
         <Text>Settings</Text>
 		<Text style={styles.para}>Settings</Text>
 	     <Text style={styles.toggles}>Large Text</Text>
+    accessible={true}
+    style={{
+    flex: 1,
+    backgroundColor: 'white',
+    padding: 10,
+    paddingTop: 30,
+  }}
+	    
   <FlipToggle 
     value={this.state.isSwitch1On}
     buttonWidth={100}
